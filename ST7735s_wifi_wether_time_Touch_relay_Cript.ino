@@ -102,8 +102,8 @@ const unsigned char wifiIcon[] PROGMEM = {
 const unsigned char newIcon[] PROGMEM = {};
 
 // Replace these with your network credentials
-const char* ssid = "TP-Link_BFF8";
-const char* password = "bCf33337123Ef";
+const char* ssid = "XXXXXXXX";
+const char* password = "XXXXXXXX";
 
 
 WiFiUDP ntpUDP;
@@ -121,7 +121,7 @@ int previousMinuteUnits = -1;
 unsigned long lastSeparatorToggle = 0;
 bool separatorVisible = true;
 
-String openWeatherMapApiKey = "602d57c2f646a23579b1940249e9dd5c";
+String openWeatherMapApiKey = "XXXXXXXXXX";
 String city = "Maltepe";
 String countryCode = "TR";
 unsigned long weatherLastTime = -300000;   // Set weatherLastTime to a negative value to fetch data immediately
